@@ -1,9 +1,9 @@
 import streamlit as st
-from usedb import use_db
+from usedb import usedb
 from use_content import content
 from use_section import section
 
-engine = use_db()
+engine = usedb()
 
 st.set_page_config(layout="wide")
 col1, col2 = st.columns(2)
